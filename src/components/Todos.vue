@@ -1,12 +1,12 @@
 <template>
-  <ul class="lista">
-    <li v-for="(todo, index) in $store.state.todoLista" :key="todo + index">
+  <transition-group name="fade" mode="out-in" tag="ul" class="lista">
+    <li v-for="(todo, index) in $store.state.todoLista" :key="todo">
       <Todo :todo="todo" :index="index" :abrirEditor="abrirEditor" />
       <div v-if="ligarEditor == index + 1">
         <EditarTodo :index="index" :editarTodo="editarTodo" />
       </div>
     </li>
-  </ul>
+  </transition-group>
 </template>
 
 <script>
@@ -42,5 +42,14 @@ export default {
   background: none;
   height: 5px;
   width: 0px;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+  transform: translate3d(-20px, 0, 0);
 }
 </style>
