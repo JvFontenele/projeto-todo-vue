@@ -15,7 +15,7 @@
   
 
 Click aqui para acessar o [Projeto original ](https://abarna1908.github.io/To-Do-App-in-React/) </br>
-![Imagem referencia](@src\assets\original.jpeg)
+![Imagem referencia](https://github.com/JvFontenele/projeto-todo-vue/issues/1#issue-1113854994)
 
 ## Requisitos 
 - Adicionar e remover tarefas 
