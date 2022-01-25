@@ -14,7 +14,7 @@
 
   
 
-Click aqui para acessar o [Projeto original ](https://abarna1908.github.io/To-Do-App-in-React/)
+Click aqui para acessar o [Projeto original ](https://abarna1908.github.io/To-Do-App-in-React/) </br>
 ![Imagem referencia](@src\assets\original.jpeg)
 
 ## Requisitos 
